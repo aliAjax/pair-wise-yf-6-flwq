@@ -90,6 +90,59 @@ h1 {
   max-width: 1240px;
 }
 
+.backup {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  justify-content: space-between;
+  margin: 0 auto 18px;
+  max-width: 1240px;
+  padding: 14px 18px;
+}
+
+.backup-info {
+  flex: 1 1 320px;
+}
+
+.backup h2 {
+  font-size: 1rem;
+  margin: 0 0 4px;
+}
+
+.backup-info p {
+  color: #687166;
+  font-size: 0.86rem;
+  margin: 0;
+}
+
+.backup-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.import-btn {
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+}
+
+.backup-message {
+  flex-basis: 100%;
+  font-size: 0.9rem;
+  font-weight: 800;
+  margin: 4px 0 0;
+}
+
+.backup-message.success {
+  color: #376336;
+}
+
+.backup-message.error {
+  color: #813d2a;
+}
+
 .panel {
   padding: 18px;
 }
