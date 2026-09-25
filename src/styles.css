@@ -90,6 +90,12 @@ h1 {
   max-width: 1240px;
 }
 
+.side {
+  align-content: start;
+  display: grid;
+  gap: 18px;
+}
+
 .panel {
   padding: 18px;
 }
@@ -97,6 +103,36 @@ h1 {
 .panel h2 {
   font-size: 1rem;
   margin: 0 0 14px;
+}
+
+.hint {
+  color: #6e756d;
+  font-size: 0.82rem;
+  margin: 0 0 12px;
+}
+
+.backup-actions {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.backup-msg {
+  border-radius: 6px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  margin: 12px 0 0;
+  padding: 10px 12px;
+}
+
+.backup-msg.ok {
+  background: #dcebd9;
+  color: #3d6937;
+}
+
+.backup-msg.error {
+  background: #f2c5b2;
+  color: #813d2a;
 }
 
 .form {
